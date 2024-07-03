@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+#root {
+  position: absolute;
+  inset: 0;
+}
+
+#allContent {
+  height: 100%;
+  width: 100%;
+
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+#header,
+#footer {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(119, 116, 116);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+}
+
+#content {
+  flex-grow: 1;
+  height: 200vh;
+  width: 100%;
+}
+
+.photoWithText {
+  background-image: url(./imgs/tausta.svg);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.photoWithText > h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 2.5em;
+}
