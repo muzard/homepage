@@ -1,5 +1,6 @@
 import "./App.css";
 import Image from "./components/Image";
+import ImageTextbox from "./components/ImgTextbox";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
       <div id="content">
         <Image />
+        <ImageTextbox />
       </div>
 
       <div id="footer">Footer</div>
